@@ -44,6 +44,10 @@ p {
     font-size: 1.2rem;
 }
 
+.btn {
+    margin-top: 5%;
+}
+
 .launcher {
     padding: 5% 15% 20%;
 }
