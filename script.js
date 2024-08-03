@@ -1,7 +1,7 @@
 var num = 0;
 
 function scrollProjects() {
-    document.getElementById("projects").scrollIntoView();
+    document.getElementById("projects").scrollIntoView({behavior: "smooth"});
 }
 
 function darkMode() {
