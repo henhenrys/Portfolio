@@ -21,6 +21,8 @@ function darkMode() {
         document.querySelector("i").classList.toggle("fa-sun");
         document.querySelector("i").classList.toggle("fa-moon");
         document.querySelector("i").style.color = "yellow";
+        document.querySelector("nav").classList.toggle("navbar-light");
+        document.querySelector("nav").classList.toggle("navbar-dark");
         num++;
     }
     else {
@@ -39,6 +41,8 @@ function darkMode() {
         document.querySelector("i").classList.toggle("fa-sun");
         document.querySelector("i").classList.toggle("fa-moon");
         document.querySelector("i").style.color = "black";
+        document.querySelector("nav").classList.toggle("navbar-light");
+        document.querySelector("nav").classList.toggle("navbar-dark");
         num++;
     }
 }
