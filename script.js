@@ -13,6 +13,10 @@ function darkMode() {
         document.getElementById("changeToo").style.color = "white";
         document.getElementById("changeToo2").style.color = "white";
         document.getElementById("changeToo3").style.color = "white";
+        document.getElementById("changeToo4").style.backgroundColor = "black";
+        document.getElementById("changeToo5").style.backgroundColor = "black";
+        document.getElementById("changeToo6").style.backgroundColor = "black";
+        document.getElementById("changeToo7").style.backgroundColor = "black";
         document.querySelector("i").classList.toggle("fa-sun");
         document.querySelector("i").classList.toggle("fa-moon");
         document.querySelector("i").style.color = "yellow";
@@ -26,6 +30,10 @@ function darkMode() {
         document.getElementById("changeToo").style.color = "black";
         document.getElementById("changeToo2").style.color = "black";
         document.getElementById("changeToo3").style.color = "black";
+        document.getElementById("changeToo4").style.backgroundColor = "white";
+        document.getElementById("changeToo5").style.backgroundColor = "white";
+        document.getElementById("changeToo6").style.backgroundColor = "white";
+        document.getElementById("changeToo7").style.backgroundColor = "white";
         document.querySelector("i").classList.toggle("fa-sun");
         document.querySelector("i").classList.toggle("fa-moon");
         document.querySelector("i").style.color = "black";
