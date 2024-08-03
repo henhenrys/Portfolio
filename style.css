@@ -1,0 +1,75 @@
+body {
+    background-color: #fffff1;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Roboto Slab';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar-brand {
+    font-family: 'Karla';
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2rem;
+}
+
+.launcher {
+    padding: 5% 15% 20%;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: 25px;
+    color: #8f8f8f;
+}
+
+.social-icon:hover {
+    color: #8fdbf2;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}

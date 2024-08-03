@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3599decf5d.js" crossorigin="anonymous"></script>
+    <title>Henry Tran</title>
+    <link rel="icon" type="image/x-icon" href="images/Untitled drawing (1).png">
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid ">
+      <!-- Nav Bar -->
+       <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="."><img src="images/Untitled drawing (1).png" style="width: 70px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="navbar-item">
+                <a href="#about" class="nav-link" style="color: #6ccff0;">About</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#skills" class="nav-link" style="color: #6ccff0;">Skills</a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link" style="color: #6ccff0;">Projects</a>
+              </li>
+              <li class="navbar-item">
+                <a href="Resume-Henry_Tran.pdf" class="nav-link" target=”_blank” style="color: #6ccff0;">Resume</a>
+              </li>
+              <li>
+                <button type="button" id="changeIcon" class="nav-link" onclick="darkMode()" style="background-color: transparent; background-repeat: no-repeat;
+                    border: none; cursor: pointer; overflow: hidden; outline: none;"><i class="fa-solid fa-moon" style="color: #000000;">
+                    </i></button>
+              </li>
+            </ul>
+          </div>
+       </nav>
+      </div>
+    </section>
+    <!-- Launch Page -->
+     <section id="launch">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="launcher">
+                    <h1>Hello! I am</h1>
+                    <h1 style="color: #6ccff0;" id="nameHere">Henry Tran</h1>
+                    <h2>An Aspiring Software Developer</h2>
+                    <br>
+                    <h5>
+                        I am a dedicated team player, motivated to
+                        learn, and passionate in the art of software
+                        engineering. I will use my fueling desires to
+                        create meaningful products for all.
+                    </h5>
+                    <br>
+                    <br>
+                    <a href="Resume-Henry_Tran.pdf" target=”_blank”>
+                        <button type="button" name="button" class="btn btn-dark btn-lg download-button" style="margin-right: 5%;" onclick="">
+                            View Resume
+                        </button>
+                    </a>
+                    <button type="button" name="button" class="btn btn-outline-dark btn-lg download-button" style="background-color: #9b985a;" onclick="darkMode()">
+                        View Projects</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="launcher">
+                    <img src="images/working-characters-flat-design-web-banner.png" width="375px" style="text-align: center;">
+                    <br>
+                    <a href="https://www.freepik.com/free-vector/working-characters-flat-design-web-banner_38013749.htm#fromView=search&page=1&position=35&uuid=9713bcbd-a656-44e9-adbf-086035a61d09" style="text-align: center;">Image by brgfx on Freepik</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- About Section -->
+    <section id="about" style="padding: 5% 7% 11%;">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 id="changeToo">About Me</h1>
+                <p style="font-size: 20px;">
+                    Hi, my name is Henry Tran. I am currently a 3rd year Computer Engineering Major at UC San Diego.
+                    When I was coming into college, I have had the slightest clue on what I wanted to really be. However,
+                    after every class I take, and all the people I meet, I am constantly encouraged to learn more about 
+                    software development.
+                    <br> <br>
+                    Outside of development, I am a big sports fan. Be it watching or playing sports, it has always been
+                    a part of my life and is something I look foward to. I also enjoy watching anime, playing video games, 
+                    cooking/learning new recipes, and swimming.
+                    <br> <br>
+                    I am always looking to meet and connect with new people. Currently I am looking to new opportunities
+                    and would be pleased to entertain any that may arise.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" style="padding: 5% 7% 20%;">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 id="changeToo2">Skills</h1>
+                <p style="font-size: 20px">
+                    I have learned a lot of different technical skills, all with varying different levels of proficiency.
+                    Such I to make it clear where my personal skill level is at the given skill, will be represented from
+                    a scale of 1-5.
+                    <br>
+                    <br>
+                    1 - Tried/Used in the past, but haven't used in 2+ years
+                    <br>
+                    2 - Used in the past year, either still learning or limited proficiency
+                    <br>
+                    3 - Good grasp of the skill and can use with moderate proficiency
+                    <br>
+                    4 - Great grasp of the skill and is proficient at it
+                    <br>
+                    5 - I live and breathe this skill and is something I use often.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="pricing-column col-lg-6 col-md-12">
+                <div class="card">
+                    <div class="card-header" style="background-color: #9ae6f7;">
+                        <h3 style="color:black;">Technical Languages</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Python &ensp;&ensp;<i class="fa-brands fa-python" style="color: #FFD43B;">&ensp;</i><i class="fa-brands fa-python" style="color: #FFD43B;">&ensp;</i><i class="fa-brands fa-python" style="color: #FFD43B;">&ensp;</i><i class="fa-brands fa-python" style="color: #FFD43B;"></i></p>
+                        <p>C++ &ensp;&ensp;<i class="fa-sharp fa-solid fa-c" style="color: #0062ff;"></i><i class="fa-solid fa-plus" style="color: #005eff;"></i><i class="fa-solid fa-plus" style="color: #005eff;">&ensp;</i><i class="fa-sharp fa-solid fa-c" style="color: #0062ff;"></i><i class="fa-solid fa-plus" style="color: #005eff;"></i><i class="fa-solid fa-plus" style="color: #005eff;">&ensp;</i><i class="fa-sharp fa-solid fa-c" style="color: #0062ff;"></i><i class="fa-solid fa-plus" style="color: #005eff;"></i><i class="fa-solid fa-plus" style="color: #005eff;"></i></p>
+                        <p>C &ensp;&ensp;<i class="fa-sharp fa-solid fa-c" style="color: #0062ff;">&ensp;</i><i class="fa-sharp fa-solid fa-c" style="color: #0062ff;">&ensp;</i><i class="fa-sharp fa-solid fa-c" style="color: #0062ff;"></i></p>
+                        <p>Java &ensp;&ensp;<i class="fa-brands fa-java" style="color: #cd6504;">&ensp;</i><i class="fa-brands fa-java" style="color: #cd6504;">&ensp;</i><i class="fa-brands fa-java" style="color: #cd6504;"></i></p>
+                        <p>JavaScript &ensp;&ensp;<i class="fa-brands fa-js" style="color: #FFD43B;">&ensp;</i><i class="fa-brands fa-js" style="color: #FFD43B;"></i></p>
+                        <p>HTML &ensp;&ensp;<i class="fa-brands fa-html5" style="color: #e04300;">&ensp;</i><i class="fa-brands fa-html5" style="color: #e04300;">&ensp;</i><i class="fa-brands fa-html5" style="color: #e04300;">&ensp;</i><i class="fa-brands fa-html5" style="color: #e04300;"></i></p>
+                        <p>CSS &ensp;&ensp;<i class="fa-brands fa-css3-alt" style="color: #4865db;">&ensp;</i><i class="fa-brands fa-css3-alt" style="color: #4865db;">&ensp;</i><i class="fa-brands fa-css3-alt" style="color: #4865db;"></i></p>
+                        <p>MATLAB &ensp;&ensp;<i class="fa-solid fa-code">&ensp;</i><i class="fa-solid fa-code"></i></p>
+                        <p>SQL &ensp;&ensp;<i class="fa-solid fa-code"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-6 col-md-12">
+                <div class="card">
+                    <div class="card-header" style="background-color: #9ae6f7;">
+                        <h3 style="color: black;">Frameworks and Libraries</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Bootstrap &ensp;&ensp;<i class="fa-brands fa-bootstrap" style="color: #7448f9;">&ensp;</i><i class="fa-brands fa-bootstrap" style="color: #7448f9;">&ensp;</i></p>
+                        <p>Pandas &ensp;&ensp;<i class="fa-solid fa-code">&ensp;</i><i class="fa-solid fa-code"></i></p>
+                        <p>Matplotlib &ensp;&ensp;<i class="fa-solid fa-code">&ensp;</i><i class="fa-solid fa-code"></i></p>
+                        <p>Seaborn &ensp;&ensp;<i class="fa-solid fa-code"></i></p>
+                        <p>Numpy &ensp;&ensp;<i class="fa-solid fa-code">&ensp;</i><i class="fa-solid fa-code"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" style="padding: 5% 7% 20%;">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 id="changeToo3">Projects</h1>
+            </div>
+        </div>
+    </section>
+<footer id="footer">
+  <a href="https://linkedin.com"><i class="social-icon fa-brands fa-linkedin"></i></a>
+  <a href="https://github.com"><i class="social-icon fa-brands fa-github"></i></a>
+  <a href="mailto:het002@ucsd.edu" class="link-primary"><i class="social-icon fa-solid fa-envelope"></i></a>
+
+
+  <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Henry Tran</p>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
